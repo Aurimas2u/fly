@@ -1,0 +1,360 @@
+body {
+  width: 100%;
+  /* width: 888px; */
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+.hamburger a.icon {
+  display: none;
+}
+
+.hero img {
+  display: none;
+}
+
+.discountBanner {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 169, 42);
+}
+.discountBanner h6 {
+  margin: 0 auto;
+}
+
+.hero {
+  height: 10%;
+  width: 100%;
+}
+
+#myVideo {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  margin-top: -4px;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 50px;
+}
+nav .container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.grid {
+  width: 100%;
+  height: 1600px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.firstSection,
+.secondSection,
+.thirdSection,
+.fourthSection {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+
+.secondSection,
+.fourthSection {
+  flex-direction: row-reverse;
+}
+
+.why,
+.destinations,
+.testimonials,
+.path {
+  width: 25%;
+  background-color: rgb(185, 185, 186);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: #fff;
+}
+
+.why {
+  text-align: right;
+}
+
+.destinations h2 {
+  background-color: rgba(148, 151, 148, 0.3);
+  border-radius: 10px;
+}
+
+.testimonials h2 {
+  background-color: rgba(148, 151, 148, 0.3);
+  border-radius: 10px;
+}
+
+.path h2 {
+  background-color: rgba(148, 151, 148, 0.3);
+  border-radius: 10px;
+}
+
+.why h2 {
+  background-color: rgba(148, 151, 148, 0.3);
+  border-radius: 10px;
+}
+
+.whySection,
+.destinationsSection,
+.testimonialsSection,
+.pathSection {
+  width: 75%;
+  background-color: rgb(185, 185, 186);
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/tickets/luggage.PNG);
+  padding-top: 50px;
+}
+
+.tickets h2 {
+  font-size: 45px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.tickets button {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  background-color: rgba(148, 151, 148, 0.3);
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+footer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  font-size: 10px;
+  color: #fff;
+}
+
+.testimonialsSection,
+.destinationsSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photoFirst,
+.photoSecond,
+.photoThird {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photoFirst {
+  background-image: url(/testimonials/adidas.jfif);
+}
+.photoSecond {
+  background-image: url(/testimonials/kathy.jpg);
+}
+.photoThird {
+  background-image: url(/testimonials/tadas.jpg);
+}
+
+.destinationFirst,
+.destinationSecond,
+.destinationThird {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  background-position: left top;
+  background-size: cover;
+  background-size: auto 100%;
+}
+
+.destinationFirst {
+  background-image: url(/destinations/france-hero.jpg);
+}
+
+.destinationSecond {
+  background-image: url(/destinations/netherlands-hero.jpg);
+}
+
+.destinationThird {
+  background-image: url(/destinations/spain-hero.jpg);
+}
+
+.videoText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 900;
+  mix-blend-mode: normal;
+  text-align: center;
+}
+
+.whySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.whySection .lukasGreeting {
+  text-align: center;
+}
+
+.destinationsSection img {
+  width: 50px;
+}
+
+.tekstas {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.boxFirst,
+.boxSecond,
+.boxThird {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinations {
+  background-image: url(/section/destinations.jpg);
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.why {
+  background-image: url(/section/EU-flag.jpg);
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  background-image: url(/section/testimonialsback.gif);
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.path {
+  background-image: url(/section/hiking.jpg);
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.testFirst,
+.testSecond,
+.testThird {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .videoText {
+    display: none;
+  }
+  .hero img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  #myVideo {
+    display: none;
+  }
+  .hamburger a.icon {
+    color: white;
+    background: none;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+  }
+  nav {
+    display: none;
+  }
+  .firstSection,
+  .secondSection,
+  .thirdSection,
+  .fourthSection {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .why,
+  .whySection,
+  .destinations,
+  .destinationsSection,
+  .testimonials,
+  .testimonialsSection,
+  .path,
+  .pathSection {
+    height: fit-content;
+    width: 100%;
+  }
+  .destinationsSection,
+  .testimonialsSection {
+    flex-direction: column;
+  }
+  .grid {
+    height: 100%;
+  }
+  .destinationsSection,
+  .testimonialsSection {
+    padding: 20px 0px;
+  }
+}
